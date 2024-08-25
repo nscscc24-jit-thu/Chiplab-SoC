@@ -1,0 +1,342 @@
+$date
+        2024-Aug-07 18:29:09
+$end
+$version
+        Vivado v2023.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 32 " usb_controller/inst/usb_host_inst/wr_data_q [31:0] $end
+$var reg 16 B usb_controller/inst/usb_host_inst/u_sie/u_crc16/c [15:0] $end
+$var reg 8 R usb_controller/inst/usb_host_inst/u_sie/u_crc16/d [7:0] $end
+$var reg 1 Z int_out_1 $end
+$var reg 32 [ usb_controller/inst/usb_host_inst/wr_addr_q [31:0] $end
+$var reg 16 { usb_controller/inst/usb_host_inst/u_sie/u_crc16/next_crc [15:0] $end
+$var reg 32 -" usb_cfg_converted_rdata [31:0] $end
+$var reg 32 M" usb_cfg_converted_araddr [31:0] $end
+$var reg 32 m" usb_cfg_converted_awaddr [31:0] $end
+$var reg 4 /# usb_cfg_converted_wstrb [3:0] $end
+$var reg 32 3# usb_cfg_converted_wdata [31:0] $end
+$var reg 1 S# usb_controller/inst/usb_host_inst/device_det_q $end
+$var reg 1 T# usb_controller/inst/usb_host_inst/err_cond_q $end
+$var reg 1 U# usb_controller/inst/usb_host_inst/intr_done_q $end
+$var reg 1 V# usb_controller/inst/usb_host_inst/intr_err_q $end
+$var reg 1 W# usb_controller/inst/usb_host_inst/intr_q $end
+$var reg 1 X# usb_controller/inst/usb_host_inst/intr_sof_q $end
+$var reg 1 Y# usb_controller/inst/usb_host_inst/status_crc_err_w $end
+$var reg 1 Z# usb_controller/inst/usb_host_inst/status_timeout_w $end
+$var reg 1 [# usb_cfg_converted_arready $end
+$var reg 1 \# usb_cfg_converted_arvalid $end
+$var reg 1 ]# usb_cfg_converted_awready $end
+$var reg 1 ^# usb_cfg_converted_awvalid $end
+$var reg 1 _# usb_cfg_converted_bready $end
+$var reg 1 `# usb_cfg_converted_bvalid $end
+$var reg 1 a# usb_cfg_converted_rready $end
+$var reg 1 b# usb_cfg_converted_rvalid $end
+$var reg 1 c# usb_cfg_converted_wready $end
+$var reg 1 d# usb_cfg_converted_wvalid $end
+$var reg 1 e# usb_controller/inst/usb_host_inst/usb_irq_mask_device_detect_out_w $end
+$var reg 1 f# usb_controller/inst/usb_host_inst/usb_irq_mask_done_out_w $end
+$var reg 1 g# usb_controller/inst/usb_host_inst/usb_irq_mask_err_out_w $end
+$var reg 1 h# usb_controller/inst/usb_host_inst/usb_irq_mask_sof_out_w $end
+$var reg 1 i# usb_controller/inst/usb_host_inst/u_sie/utmi_txready_i $end
+$var reg 1 j# usb_controller/inst/usb_host_inst/u_sie/utmi_txvalid_o $end
+$var reg 1 k# usb_controller/inst/usb_host_inst/wr_addr_valid_q $end
+$var reg 1 l# usb_controller/inst/usb_host_inst/wr_data_valid_q $end
+$var reg 1 m# _TRIGGER $end
+$var reg 1 n# _WINDOW $end
+$var reg 1 o# _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b1111111111111111 B
+b1 R
+0Z
+b0 [
+b111110100000111 {
+b110000000000000000000000000000 -"
+b11111101100000000000000011100 M"
+b11111101100000000000000100000 m"
+b1111 /#
+b1000000 3#
+1S#
+1T#
+0U#
+0V#
+0W#
+0X#
+0Y#
+1Z#
+1[#
+0\#
+0]#
+0^#
+0_#
+1`#
+0a#
+0b#
+0c#
+0d#
+0e#
+1f#
+1g#
+0h#
+0i#
+0j#
+0k#
+0l#
+0m#
+1n#
+0o#
+$end
+#12
+1_#
+#13
+1]#
+0_#
+0`#
+#32
+1X#
+1j#
+1m#
+#33
+b100000000000000000000000000000 -"
+#35
+1i#
+#38
+0i#
+0j#
+#61
+1^#
+#62
+b11111101100000000000000100000 [
+b0 3#
+0]#
+0^#
+1c#
+1k#
+#63
+1d#
+#64
+0c#
+0d#
+1l#
+#65
+b0 [
+1`#
+0k#
+0l#
+#80
+1_#
+#81
+1]#
+0_#
+0`#
+#127
+b11111101100000000000000010100 m"
+#128
+1^#
+#129
+b11111101100000000000000010100 [
+b1000 3#
+0]#
+0^#
+1c#
+1k#
+#130
+1d#
+#131
+b1000 "
+0c#
+0d#
+1l#
+#132
+b0 "
+b0 [
+1`#
+0k#
+0l#
+#147
+1_#
+#148
+1]#
+0_#
+0`#
+#193
+b11111101100000000000000011000 m"
+#194
+1^#
+#195
+b11111101100000000000000011000 [
+b10100000001011010000000000000000 3#
+0]#
+0^#
+1c#
+1k#
+#196
+1d#
+#197
+b10100000001011010000000000000000 "
+0c#
+0d#
+1l#
+#198
+b0 "
+b0 [
+1`#
+0k#
+0l#
+#199
+b10100000000000000000000000000000 -"
+#213
+1_#
+#214
+b10110000000000000000000000000000 -"
+1]#
+0_#
+0`#
+#215
+0Z#
+1j#
+#216
+b1000 -"
+0T#
+#218
+1i#
+#221
+0i#
+0j#
+#260
+b11111101100000000000000001100 M"
+#261
+b1 -"
+1\#
+0]#
+#262
+0[#
+0\#
+1]#
+1b#
+#278
+1a#
+#279
+1[#
+0a#
+0b#
+#354
+b11111101100000000000000001000 m"
+#355
+b1 3#
+1^#
+#356
+b11111101100000000000000001000 [
+0]#
+0^#
+1c#
+1d#
+1k#
+#357
+b1 "
+0c#
+0d#
+1l#
+#358
+b0 "
+b0 [
+1`#
+0k#
+0l#
+#359
+0X#
+#360
+b0 -"
+#373
+1_#
+#374
+1]#
+0_#
+0`#
+#396
+1j#
+#398
+1i#
+#400
+b111110100000111 B
+b1100000 R
+b11101001110 {
+#401
+b11101001110 B
+b0 R
+b1100111000010001 {
+#402
+b1100111000010001 B
+b10000000 R
+b1000010100100 {
+#403
+b1000010100100 B
+b0 R
+b10010001100011 {
+#404
+b10010001100011 B
+b110001111011000 {
+#405
+b110001111011000 B
+b10 R
+b101100101000101 {
+#406
+b101100101000101 B
+b0 R
+b100010011010110 {
+#407
+b100010011010110 B
+b1101011110011000 {
+#409
+0j#
+#411
+0i#
+#414
+b1111111111111111 B
+b1111110100000010 {
+#422
+b11111101100000000000000010000 m"
+#423
+1^#
+#424
+b11111101100000000000000010000 [
+b110 3#
+0]#
+0^#
+1c#
+1k#
+#425
+1d#
+#426
+b110 "
+0c#
+0d#
+1l#
+#427
+b0 "
+b0 [
+1`#
+0k#
+0l#
+#442
+1_#
+#443
+1]#
+0_#
+0`#
+#925
+1Z#
+#926
+1T#
+1V#
+#927
+1Z
+b100 -"
+1W#
